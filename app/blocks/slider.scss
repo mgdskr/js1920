@@ -1,4 +1,5 @@
 .slider {
+    position: relative;
     width: 100%;
     height: 470px;
     overflow: hidden;
@@ -19,7 +20,6 @@
         justify-content: center;
         margin-top: -17px-16px;
     }
-
     //checkboxes
     &__control-item {
         opacity: 0;
@@ -40,4 +40,40 @@
             background: rgb(0, 0, 0);
         }
     }
+
+    &__text {
+        position: absolute;
+        left: 36px;
+        bottom: 40px;
+
+    }
+
+    &__text-line {
+        float: left;
+        clear: left;
+        display: block;
+        background: rgba(0, 0, 0, .9);
+        font-family: Ubuntu;
+        font-size: 54px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        padding: 0 25px;
+        line-height: .9;
+        min-width: 155px;
+
+        &_first {
+            padding-top: 25px;
+        }
+
+        &_last {
+            padding-bottom: 25px;
+        }
+
+
+        &_accent {
+            color: rgb(244, 182, 13);
+        }
+    }
+
 }
