@@ -1,0 +1,15 @@
+.header {
+
+    &__container {
+        width: $max-width;
+        margin: auto;
+    }
+
+    &__headline {
+        margin-top: 37px;
+    }
+
+    &__main-nav {
+        margin-top: 39px;
+    }
+}
