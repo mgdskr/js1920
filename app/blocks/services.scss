@@ -1,0 +1,23 @@
+.services {
+    background-color: rgb(42, 45, 50);
+
+    &__container {
+        width: $max-width;
+        margin: auto;
+        padding: 47px 0 70px 0;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Ubuntu;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 57px;
+    }
+
+}
