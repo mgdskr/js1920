@@ -5,6 +5,7 @@
     overflow: hidden;
 
     &__body {
+        position: relative;
         width: 9999px;
         font-size: 0;
     }
@@ -16,11 +17,12 @@
     }
 
     &__controls {
+        position: relative;
         display: flex;
         justify-content: center;
         margin-top: -17px-16px;
     }
-    //checkboxes
+
     &__control-item {
         opacity: 0;
         position: absolute;
@@ -36,7 +38,7 @@
             background: rgb(255, 255, 255);
         }
 
-        &:checked + label::before {
+        &[checked="checked"] + label::before {
             background: rgb(0, 0, 0);
         }
     }
