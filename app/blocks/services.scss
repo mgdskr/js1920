@@ -1,10 +1,11 @@
 .services {
     background-color: rgb(42, 45, 50);
 
+
     &__container {
-        width: $max-width;
-        margin: auto;
-        padding: 47px 0 70px 0;
+        @include container {
+            padding: 47px 0 70px 0;
+        }
     }
 
     &__body {
@@ -19,5 +20,4 @@
         font-weight: 500;
         margin-bottom: 57px;
     }
-
 }

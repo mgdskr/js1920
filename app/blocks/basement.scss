@@ -7,11 +7,12 @@
     line-height: 20px;
     padding: 20px;
 
+
     &__container {
-        width: 1160px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
+        @include container {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     &__item {

@@ -7,7 +7,6 @@
     text-align: center;
 
     &:hover {
-
         .service__title {
             color: rgb(244, 182, 13);
         }
@@ -15,11 +14,9 @@
         .service__figure::before {
             display: block;
         }
-
     }
 
     &__figure {
-        // position: relative;
         &::before {
             position: absolute;
             display: none;
@@ -38,7 +35,6 @@
         height: 260px;
         width: 260px;
         margin-bottom: 34px;
-
     }
 
     &__title {
@@ -46,6 +42,5 @@
         font-family: Ubuntu;
         font-size: 16px;
         font-weight: 500;
-        // display: block;
     }
 }

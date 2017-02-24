@@ -1,8 +1,8 @@
 .header {
 
     &__container {
-        width: $max-width;
-        margin: auto;
+        @include container {
+        }
     }
 
     &__headline {
