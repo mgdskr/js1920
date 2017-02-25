@@ -6,10 +6,9 @@
     align-items: flex-start;
 
     &__number {
-        width: 80px;
-        height: 64px;
         color: rgba(42, 43, 46, .1);
         font-size: 90px;
+        line-height: 64px;
         // font-family: Ubuntu;
         // font-weight: 500;
     }
@@ -20,12 +19,17 @@
         width: (237px/356px)*100+%;
     }
 
-    &__icon {}
+    &__icon {
+        width: 32px;
+        height: 32px;
+        fill: rgb(244, 182, 13);
+        margin-bottom: 13px;
+    }
 
     &__title {
         color: rgb(42, 43, 46);
         font-size: 20px;
-        margin-bottom: 27px;
+        margin-bottom: 25px;
         // font-family: Ubuntu;
         // font-weight: 500;
     }

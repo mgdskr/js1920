@@ -158,7 +158,7 @@ gulp.task('scripts', function() {
         .pipe(babel({
             presets: ['es2015']
         }))
-        .pipe(concat('bundle.js'))
+        .pipe(concat('bundle.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('app/js'))
         .pipe(browserSync.reload({
