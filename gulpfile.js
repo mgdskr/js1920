@@ -39,7 +39,7 @@ var path = {
         sass: ['app/blocks/core/*.scss', 'app/blocks/*.scss', '!app/blocks/main.scss'],
         img: 'app/img/**/*.*',
         fonts: 'app/fonts/**/*.*',
-        js: ['app/js/**/*.js', '!app/js/bundle.js']
+        js: ['app/js/**/*.js', '!app/js/bundle.min.js']
     },
     watch: {
         html: 'app/**/*.html',
@@ -159,7 +159,7 @@ gulp.task('scripts', function() {
             presets: ['es2015']
         }))
         .pipe(concat('bundle.min.js'))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('app/js'))
         .pipe(browserSync.reload({
             stream: true
