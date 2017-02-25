@@ -27,15 +27,15 @@
         vertical-align: middle;
         width: 100%;
         color: rgb(42, 45, 50);
-        font-family: Ubuntu;
         font-size: 13px;
-        font-weight: 500;
         text-transform: uppercase;
         border: 1px solid rgb(232, 232, 232);
         background-color: rgb(255, 255, 255);
         padding: 14px;
         box-sizing: border-box;
         line-height: 11px;
+        font-weight: 500;
+        font-family: Ubuntu;
 
         &::before {
             content: '+';

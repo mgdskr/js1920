@@ -9,10 +9,10 @@
 
     &__text {
         color: #434343;
-        font-family: $font-main;
         font-size: 30px;
-        font-weight: 500;
         line-height: 16px;
+        // font-family: $font-main;
+        // font-weight: 500;
 
         &_accent {
             opacity: 0.65;

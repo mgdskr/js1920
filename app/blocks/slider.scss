@@ -55,14 +55,14 @@
         clear: left;
         display: block;
         background: rgba(0, 0, 0, .9);
-        font-family: Ubuntu;
         font-size: 54px;
-        font-weight: 500;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
         padding: 0 25px;
         line-height: .9;
         min-width: 155px;
+        // font-family: Ubuntu;
+        // font-weight: 500;
 
         &_first {
             padding-top: 25px;

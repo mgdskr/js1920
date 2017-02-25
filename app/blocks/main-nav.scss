@@ -21,13 +21,13 @@
         display: block;
         text-decoration: none;
         color: #ffffff;
-        font-family: "Ubuntu Condensed";
         font-size: 14px;
         line-height: 1;
-        font-weight: 400;
         text-transform: uppercase;
         border-right: 1px solid rgba(21, 21, 21, .5);
         padding: 21px 0;
+        font-family: $font-main-accent;
+        font-weight: 400;
 
         &:hover {
             color: rgb(244, 182, 13);
@@ -59,8 +59,8 @@
         border: none;
         outline: none;
         color: rgba(255, 255, 255, .15);
-        font-family: Arial;
         font-size: 12px;
+        font-family: Arial;
         font-weight: 400;
     }
 

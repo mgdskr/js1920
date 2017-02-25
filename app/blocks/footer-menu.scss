@@ -6,11 +6,11 @@
 
     &__title {
         color: rgb(255, 255, 255);
-        font-family: Ubuntu;
         font-size: 16px;
-        font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 49px;
+        // font-family: Ubuntu;
+        // font-weight: 500;
     }
 
     &__item {
@@ -22,10 +22,10 @@
     &__link {
         text-decoration: none;
         color: rgba(255, 255, 255, .3);
+        line-height: 36px;
         font-family: Arial;
         font-size: 13px;
         font-weight: 400;
-        line-height: 36px;
 
         &:hover {
             color: rgb(36, 140, 236);

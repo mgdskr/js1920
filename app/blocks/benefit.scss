@@ -9,9 +9,9 @@
         width: 80px;
         height: 64px;
         color: rgba(42, 43, 46, .1);
-        font-family: Ubuntu;
         font-size: 90px;
-        font-weight: 500;
+        // font-family: Ubuntu;
+        // font-weight: 500;
     }
 
     &__body {
@@ -24,18 +24,18 @@
 
     &__title {
         color: rgb(42, 43, 46);
-        font-family: Ubuntu;
         font-size: 20px;
-        font-weight: 500;
         margin-bottom: 27px;
+        // font-family: Ubuntu;
+        // font-weight: 500;
     }
 
     &__text {
         color: rgb(138, 138, 138);
-        font-family: Arial;
-        font-size: 13px;
-        font-weight: 400;
         margin-bottom: 22px;
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: 400;
     }
 
     &__read-more {
@@ -43,9 +43,9 @@
         align-items: center;
         text-decoration: none;
         color: rgb(42, 43, 46);
-        font-family: Ubuntu;
         font-size: 13px;
-        font-weight: 500;
+        // font-family: Ubuntu;
+        // font-weight: 500;
 
         &:hover {
             color: rgb(36, 140, 236);
