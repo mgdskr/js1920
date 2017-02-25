@@ -4,7 +4,8 @@
 }
 
 .banner {
-    &:hover {
+
+    &_active {
 
         .banner__title {
         color: rgb(255, 255, 255);
@@ -22,6 +23,7 @@
     }
 
     &__title {
+        cursor: pointer;
         vertical-align: middle;
         width: 100%;
         color: rgb(42, 45, 50);

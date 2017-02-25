@@ -32,4 +32,18 @@
 
     });
 
+    ////accordion
+    ////one element is always visible like here https://jqueryui.com/accordion/
+    let banners = document.querySelector('.banners');
+
+    banners.addEventListener('click', handlerBannerClick);
+    function handlerBannerClick(e) {
+        if (e.target.className === 'banner__title') {
+            banners.querySelector('.banner_active').classList.toggle('banner_active');
+            e.target.parentNode.classList.toggle('banner_active');
+        }
+    }
+
+
+
 })();
